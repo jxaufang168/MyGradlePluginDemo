@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="kotlin-non-jvm-source-roots" />
+  </applied-converters>
+  <project-files>
+    <file path="/Users/flygo/Documents/workspace_idea_plugin/MyPluginDemo/.idea/misc.xml" timestamp="1574664384064" />
+    <file path="/Users/flygo/Documents/workspace_idea_plugin/MyPluginDemo/.idea/modules.xml" timestamp="1574664384067" />
+    <file path="/Users/flygo/Documents/workspace_idea_plugin/MyPluginDemo/.idea/workspace.xml" timestamp="1574932029225" />
+    <file path="/Users/flygo/Documents/workspace_idea_plugin/MyPluginDemo/MyPluginDemo.iml" timestamp="1574664432157" />
+  </project-files>
+</conversion>
+

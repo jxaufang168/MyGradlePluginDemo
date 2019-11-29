@@ -1,0 +1,29 @@
+<idea-plugin>
+    <id>com.demo.plugin.MyGradlePluginDemo</id>
+    <name>MyGradlePluginDemo</name>
+    <vendor email="ronghui.liang@edgecom.tech" url="http://www.edgecom.top">edgecom</vendor>
+
+    <description><![CDATA[
+    My gradle plugin demo.<br>
+    <em>this is gradle plugin demo</em>
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="MyGradlePluginDemo.MyGradleDialog" class="com.demo.plugin.MyGradleDialog" text="My Gradle Dialog"
+                description="A my gradle dialog">
+            <add-to-group group-id="EditMenu" anchor="after" relative-to-action="$Redo"/>
+        </action>
+    </actions>
+
+</idea-plugin>
